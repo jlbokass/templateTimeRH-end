@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Meta -->
+  <meta name="description" content="Responsive Bootstrap 4 Dashboard and Admin Template">
+  <meta name="author" content="ThemePixels">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
+
+  <title>Time RH | Connexion</title>
+
+  <!-- vendor css -->
+  <link href="./lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="./lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- template css -->
+  <link rel="stylesheet" href="./assets/css/cassie.css">
+
+</head>
+<body>
+
+<div class="signin-panel">
+<!--  <svg-to-inline path="http://themepixels.me/cassie/assets/svg/citywalk.svg" class-Name="svg-bg"></svg-to-inline>-->
+  <img src="../assets/img/login.png" class-Name="svg-bg" class="img-fluid">
+
+  <div class="signin-sidebar">
+    <div class="signin-sidebar-body">
+      <a href="#" class="sidebar-logo mg-b-40"><span>Time RH</span></a>
+      <h4 class="signin-title">Connexion</h4>
+      <h5 class="signin-subtitle">Veuillez vous connecter pour continuer.</h5>
+
+      <div class="signin-form">
+        <div class="form-group">
+          <label>Votre Email</label>
+          <input type="email" class="form-control" placeholder="Entrer votre email" value="yourname@yourdomain.com">
+        </div>
+
+        <div class="form-group">
+          <label class="d-flex justify-content-between">
+            <span>Mot de passe</span>
+            <a href="" class="tx-13">Mot de passe oublié?</a>
+          </label>
+          <input type="password" class="form-control" placeholder="Enter your password" value="yourpassword">
+        </div>
+
+        <div class="form-group d-flex mg-b-0">
+          <a href="pages/homepage.html" class="btn btn-trh-blue btn-uppercase flex-fill">Se connecter</a>
+<!--          <a href="page-signup.html" class="btn btn-white btn-uppercase flex-fill mg-l-10">Sign Up</a>-->
+        </div>
+
+<!--        <div class="divider-text mg-y-30">Or</div>-->
+
+<!--        <a href="dashboard-one.html" class="btn btn-facebook btn-uppercase btn-block">Login with Facebook</a>-->
+      </div>
+      <p class="mg-t-auto mg-b-0 tx-sm tx-color-03">En vous connectant, vous acceptez nos <a href="">Nos mentions
+        légales</a>
+        et notre
+        <a href="">Politique de confidentialité</a> - <a href="#">FAQ</a></p>
+    </div><!-- signin-sidebar-body -->
+  </div><!-- signin-sidebar -->
+</div><!-- signin-panel -->
+
+
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./lib/feather-icons/feather.min.js"></script>
+<script src="./lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+
+<script>
+  $(function(){
+
+    'use strict'
+
+    feather.replace();
+
+    new PerfectScrollbar('.signin-sidebar', {
+      suppressScrollX: true
+    });
+
+  })
+</script>
+<script src="./assets/js/svg-inline.js"></script>
+</body>
+</html>

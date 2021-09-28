@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard and Admin Template">
+    <meta name="author" content="ThemePixels">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
+
+    <title>Time RH | Mon espace</title>
+
+    <!-- vendor css -->
+    <link href="../lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../lib/fullcalendar/fullcalendar.min.css" rel="stylesheet">
+    <link href="../lib/select2/css/select2.min.css" rel="stylesheet">
+
+    <!-- template css -->
+    <link rel="stylesheet" href="../assets/css/cassie.css">
+
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        <div>
+            <a href="homepage.html" class="sidebar-logo"><span>Time RH</span></a>
+            <small class="sidebar-logo-headline">Votre compagnon RH</small>
+        </div>
+    </div><!-- sidebar-header -->
+    <div id="dpSidebarBody" class="sidebar-body">
+        <ul class="nav nav-sidebar">
+            <li class="nav-label"><label class="content-label">Paie et RH</label></li>
+            <li class="nav-item">
+                <a href="page-my-dashboard.html" class="nav-link active"><i data-feather="box"></i> Mon espace</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-rh-requests.html" class="nav-link"><i data-feather="layout"></i> Mes demandes</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-my-collaborators.html" class="nav-link"><i data-feather="lock"></i> Collaborateurs</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-entries-and-validations.html" class="nav-link"><i data-feather="lock"></i> Saisie et
+                    Validation</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-temp-worker.html" class="nav-link"><i data-feather="x-circle"></i> Intérimaires</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-medical-check-up.html" class="nav-link"><i data-feather="user"></i>Visite médicale</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="page-e-document.html" class="nav-link"><i data-feather="layers"></i> E-documents</a>
+            </li>
+        </ul>
+
+        <hr class="mg-t-30 mg-b-25">
+
+        <ul class="nav nav-sidebar">
+            <li class="nav-item"><a href="page-faq.html" class="nav-link"><i data-feather="aperture"></i> FAQ</a></li>
+            <li
+                    class="nav-item"><a href="page-legal-notice.html" class="nav-link"><i
+                    data-feather="help-circle"></i>
+                Mentions légales
+            </a></li>
+            <li
+                    class="nav-item"><a href="page-privacy-policy.html" class="nav-link"><i
+                    data-feather="help-circle"></i>
+                Politique de confidentialité
+            </a></li>
+        </ul>
+
+
+    </div><!-- sidebar-body -->
+</div><!-- sidebar -->
+
+<div class="content">
+    <div class="header">
+        <div class="header-left">
+            <a href="" class="burger-menu"><i data-feather="menu"></i></a>
+
+            <div class="header-search">
+                <i data-feather="search"></i>
+                <input type="search" class="form-control" placeholder="Qu'est-ce que vous cherchez?">
+            </div><!-- header-search -->
+        </div><!-- header-left -->
+
+        <div class="header-right">
+            <!--            <a href="" class="header-help-link"><i data-feather="help-circle"></i></a>-->
+            <div class="dropdown dropdown-notification">
+                <a href="" class="dropdown-link new" data-toggle="dropdown"><i data-feather="bell"></i></a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu-header">
+                        <h6>Notifications</h6>
+                        <a href=""><i data-feather="more-vertical"></i></a>
+                    </div><!-- dropdown-menu-header -->
+                    <div class="dropdown-menu-body">
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle text-primary bg-primary-light">s</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Phillipe Labarbe</strong> a marqué la tâche comme terminée.</p>
+                                <span>il y a 5 heures</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-pink bg-pink-light">r</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Nathalie Sucodumo</strong> a marqué la tâche comme terminée.</p>
+                                <span>il y a 8 heures</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-success bg-success-light">d</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Beatrice Jean</strong> a répondu à votre commentaire à ce sujet
+                                    <strong>Paie RH
+                                    </strong>.</p>
+                                <span>il y a 1 jour</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-indigo bg-indigo-light">k</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Pascal Truffaud</strong> a marqué la tâche comme terminée.</p>
+                                <span>il y a 2 jours</span>
+                            </div>
+                        </a>
+                    </div><!-- dropdown-menu-body -->
+                    <div class="dropdown-menu-footer">
+                        <a href="">Afficher toutes les notifications</a>
+                    </div>
+                </div><!-- dropdown-menu -->
+            </div>
+            <div class="dropdown dropdown-loggeduser">
+                <a href="" class="dropdown-link" data-toggle="dropdown">
+                    <div class="">
+                        <!--                        <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">-->
+                        Bienvenue <strong>Phillipe Labarbe</strong>
+                    </div><!-- avatar -->
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu-header">
+                        <div class="media align-items-center">
+                            <!--                            <div class="avatar">-->
+                            <!--                                <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">-->
+                            <!--                            </div>&lt;!&ndash; avatar &ndash;&gt;-->
+                            <div class="media-body mg-l-10">
+                                <h6>Philippe Labarbe</h6>
+                                <span>responsable RH</span>
+                            </div>
+                        </div><!-- media -->
+                    </div>
+                    <div class="dropdown-menu-body">
+                        <a href="" class="dropdown-item"><i data-feather="user"></i> Voir le profil</a>
+                        <a href="" class="dropdown-item"><i data-feather="edit-2"></i> Editer le Profile</a>
+                        <!--                        <a href="" class="dropdown-item"><i data-feather="briefcase"></i> Account Settings</a>-->
+                        <!--                        <a href="" class="dropdown-item"><i data-feather="shield"></i> Privacy Settings</a>-->
+                        <a href="../index.html" class="dropdown-item"><i data-feather="log-out"></i> Se déconnecter</a>
+                    </div>
+                </div><!-- dropdown-menu -->
+            </div>
+        </div><!-- header-right -->
+    </div><!-- header -->
+    <div class="content-header justify-content-between">
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Mon espace</li>
+                </ol>
+            </nav>
+            <h4 class="content-title content-title-xs mb-2">Mon espace</h4>
+            <p>
+                Vous pouvez ajouter un évènement par double clic sur le planning.
+            </p>
+        </div>
+<!--        <div class="d-none d-sm-flex">-->
+<!--            &lt;!&ndash;                    <a href="" class="btn btn-white"><i data-feather="share-2" class="svg-14"></i> Share</a>&ndash;&gt;-->
+<!--            <a href="" class="btn btn-brand-01 mg-l-5"><i data-feather="save" class="svg-14"></i> Nouvelle demande</a>-->
+<!--        </div>-->
+    </div><!-- content-header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Mes soldes -->
+                <div class="card mb-5">
+                    <div class="card-body">
+                        <h5 class="card-title">Mes soldes</h5>
+                        <table class="table">
+                            <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Compteurs</th>
+                                <th scope="col">Congés</th>
+                                <th scope="col">RTT</th>
+                                <th scope="col">RCR</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Acquis</th>
+                                <td>2,500</td>
+                                <td>1,000</td>
+                                <td>2,000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pris</th>
+                                <td>1,000</td>
+                                <td>0,000</td>
+                                <td>0,000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Reste</th>
+                                <td>10,000</td>
+                                <td>3,000</td>
+                                <td>4,000</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- Mes demandes -->
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mes demandes</h5>
+                        <table class="table">
+                            <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Intitulé</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Formulaire</th>
+                                <th scope="col">Etat</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Acompte</th>
+                                <td>24/02/21</td>
+                                <td>Montant</td>
+                                <td>En cours</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Duplicata</th>
+                                <td>13/03/21</td>
+                                <td>Libre</td>
+                                <td>Valider</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Attestation de mutuelle</th>
+                                <td>28/06/21</td>
+                                <td>Libre</td>
+                                <td>En attente</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Profile infos -->
+                <div class="row row-xs">
+                    <div class="col-md-4">
+                        <ul class="list-group list-group-settings">
+                            <li class="list-group-item list-group-item-action">
+                                <a href="#paneProfile" data-toggle="tab" class="media">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                    <div class="media-body">
+                                        <h6>Profile Information</h6>
+                                        <span>About your personal information</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-group-item list-group-item-action">
+                                <a href="#paneAccount" data-toggle="tab" class="media">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                                    <div class="media-body">
+                                        <h6>Account Settings</h6>
+                                        <span>Manage your account setting options</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-group-item list-group-item-action">
+                                <a href="#paneSecurity" data-toggle="tab" class="media">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                    <div class="media-body">
+                                        <h6>Security</h6>
+                                        <span>Manage your security information</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-group-item list-group-item-action">
+                                <a href="#paneNotification" data-toggle="tab" class="media">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                                    <div class="media-body">
+                                        <h6>Notification</h6>
+                                        <span>Choose how you receive notifications</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list-group-item list-group-item-action">
+                                <a href="#paneBilling" data-toggle="tab" class="media active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                                    <div class="media-body">
+                                        <h6>Billing</h6>
+                                        <span>Your billing and payment information</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- col -->
+                    <div class="col-md-8">
+                        <div class="card card-body pd-sm-40 pd-md-30 pd-xl-y-35 pd-xl-x-40">
+                            <div class="tab-content">
+                                <div id="paneProfile" class="tab-pane show">
+                                    <h6 class="tx-uppercase tx-semibold tx-color-01 mg-b-0">Your Profile Information</h6>
+                                    <hr>
+                                    <div class="form-settings">
+                                        <div class="form-group">
+                                            <label class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" placeholder="Enter your fullname" value="Dwayne Johnson">
+                                            <div class="tx-11 tx-sans tx-color-04 mg-t-5">Your name may appear around here where you are mentioned. You can change or remove it at any time.</div>
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group">
+                                            <label class="form-label">Your Bio</label>
+                                            <textarea class="form-control" rows="3" placeholder="Write something about you">A front-end developer that focus more on user interface design, a web interface wizard, a connector of awesomeness and a long lost twin of Vin Diesel.</textarea>
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group">
+                                            <label class="form-label">URL</label>
+                                            <input type="text" class="form-control" placeholder="Enter your website address" value="http://themepixels.me">
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group">
+                                            <label class="form-label">Location</label>
+                                            <input type="text" class="form-control" placeholder="Enter your location" value="San Francisco, CA">
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group tx-13 tx-color-04">
+                                            All of the fields on this page are optional and can be deleted at any time, and by filling them out, you're giving us consent to share this data wherever your user profile appears.
+                                        </div>
+
+                                        <hr class="op-0">
+
+                                        <button class="btn btn-brand-02">Update Profile</button>
+                                        <button class="btn btn-white mg-l-2">Reset Changes</button>
+                                    </div>
+                                </div><!-- tab-pane -->
+                                <div id="paneAccount" class="tab-pane">
+                                    <h6 class="tx-uppercase tx-semibold tx-color-01 mg-b-0">Account Settings</h6>
+
+                                    <hr>
+                                    <div class="form-settings">
+                                        <div class="form-group">
+                                            <label class="form-label">Username</label>
+                                            <input type="text" class="form-control" placeholder="Enter your username" value="dwayne.johnson">
+                                            <div class="tx-11 tx-sans tx-color-04 mg-t-5">After changing your username, your old username becomes available for anyone else to claim.</div>
+                                        </div><!-- form-group -->
+
+                                        <hr>
+
+                                        <div class="form-group">
+                                            <label class="form-label text-danger">Delete Account</label>
+                                            <p class="tx-sm tx-color-04">Once you delete your account, there is no going back. Please be certain.</p>
+                                            <button class="btn btn-sm btn-danger">Delete Account</button>
+                                        </div><!-- form-group -->
+                                    </div><!-- form-settings -->
+                                </div><!-- tab-pane -->
+                                <div id="paneSecurity" class="tab-pane">
+                                    <h6 class="tx-uppercase tx-semibold tx-color-01 mg-b-0">Security Settings</h6>
+                                    <hr>
+                                    <div class="form-settings">
+                                        <div class="form-group">
+                                            <label class="form-label">Change Old Password</label>
+                                            <input type="text" class="form-control" placeholder="Enter your old password">
+                                            <input type="text" class="form-control mg-t-5" placeholder="New password">
+                                            <input type="text" class="form-control mg-t-5" placeholder="Confirm new password">
+                                        </div><!-- form-group -->
+
+                                        <hr>
+
+                                        <div class="form-group">
+                                            <label class="form-label">Two Factor Authentication</label>
+                                            <button class="btn btn-brand-02 tx-sm">Enable two-factor authentication</button>
+                                            <div class="tx-11 tx-sans tx-color-04 mg-t-7">Two-factor authentication adds an additional layer of security to your account by requiring more than just a password to log in.</div>
+                                        </div><!-- form-group -->
+
+                                        <hr>
+
+                                        <div class="form-group">
+                                            <label class="form-label">Sessions</label>
+                                            <p class="tx-sm tx-color-03">This is a list of devices that have logged into your account. Revoke any sessions that you do not recognize.</p>
+
+                                            <ul class="list-group list-group-session">
+                                                <li class="list-group-item">
+                                                    <div>
+                                                        <h6>San Francisco City 190.24.335.55</h6>
+                                                        <span>Your current session seen in United States</span>
+                                                    </div>
+                                                    <a href="" class="btn btn-xs btn-white">More Info</a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- form-group -->
+                                    </div><!-- form-settings -->
+                                </div><!-- tab-pane -->
+                                <div id="paneNotification" class="tab-pane">
+                                    <h6 class="tx-uppercase tx-semibold tx-color-01 mg-b-0">Notification Settings</h6>
+                                    <hr>
+                                    <div class="form-settings mx-wd-100p">
+                                        <div class="form-group">
+                                            <label class="form-label mg-b-2">Security Alerts</label>
+                                            <p class="tx-sm tx-color-04">Receive security alert notifications via email</p>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                <label class="custom-control-label" for="customCheck1">Email each time a vulnerability is found</label>
+                                            </div>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                <label class="custom-control-label" for="customCheck2">Email a digest summary of vulnerabilities</label>
+                                            </div>
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group">
+                                            <label class="form-label">SMS Notifications</label>
+                                            <ul class="list-group list-group-notification">
+                                                <li class="list-group-item">
+                                                    <p class="mg-b-0">Comments</p>
+                                                    <div class="custom-control custom-switch">
+                                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                                        <label class="custom-control-label" for="customSwitch1">&nbsp;</label>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p class="mg-b-0">Updates From People</p>
+                                                    <div class="custom-control custom-switch">
+                                                        <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                                                        <label class="custom-control-label" for="customSwitch2">&nbsp;</label>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p class="mg-b-0">Reminders</p>
+                                                    <div class="custom-control custom-switch">
+                                                        <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                                                        <label class="custom-control-label" for="customSwitch3">&nbsp;</label>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p class="mg-b-0">Events</p>
+                                                    <div class="custom-control custom-switch">
+                                                        <input type="checkbox" class="custom-control-input" id="customSwitch4">
+                                                        <label class="custom-control-label" for="customSwitch4">&nbsp;</label>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p class="mg-b-0">Pages You Follow</p>
+                                                    <div class="custom-control custom-switch">
+                                                        <input type="checkbox" class="custom-control-input" id="customSwitch5">
+                                                        <label class="custom-control-label" for="customSwitch5">&nbsp;</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div><!-- form-group -->
+                                    </div><!-- form-setting -->
+                                </div><!-- tab-pane -->
+                                <div id="paneBilling" class="tab-pane active">
+                                    <h6 class="tx-uppercase tx-semibold tx-color-01 mg-b-0">Billing Settings</h6>
+                                    <hr>
+                                    <div class="form-settings mx-wd-100p">
+                                        <div class="form-group">
+                                            <label class="form-label mg-b-2">Payment Method</label>
+                                            <p class="tx-color-04 tx-13">You have not added a payment method</p>
+                                            <button class="btn btn-brand-02 btn-sm">Add Payment Method</button>
+                                        </div><!-- form-group -->
+
+                                        <div class="form-group">
+                                            <label class="form-label">Payment History</label>
+                                            <div class="bd bg-gray-100 pd-20 tx-center">
+                                                <p class="tx-13 mg-b-0">You have not made any payment.</p>
+                                            </div>
+                                        </div><!-- form-group -->
+                                    </div><!-- form-settings -->
+                                </div><!-- tab-pane -->
+                            </div><!-- tab-content -->
+                        </div><!-- card -->
+                    </div><!-- col -->
+                </div><!-- Fin profile infos -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h3 class="mt-4">Agenda</h3>
+    </div>
+    <div class="content-body content-body-calendar">
+        <div id="calendar" class="content-calendar"></div>
+    </div><!-- content-body -->
+
+    <div class="content-footer text-center">
+        &copy; 2021. Tous droits réservés. Conception par <a href="https://www.irtconseils.fr/" target="_blank">IRT
+        Soft</a> partenaire <a href="">IRT Conseils</a>
+    </div><!-- content-footer -->
+</div><!-- content -->
+
+<div class="modal calendar-modal-create fade effect-scale" id="modalCreateEvent" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body pd-20 pd-sm-30">
+                <button type="button" class="close pos-absolute t-20 r-20" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i data-feather="x"></i></span>
+                </button>
+
+                <h5 class="tx-18 tx-sm-20 mg-b-20 mg-sm-b-30">Create New Event</h5>
+
+                <form id="formCalendar" method="post" action="app-calendar.html">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Add title">
+                    </div><!-- form-group -->
+                    <div class="form-group d-flex align-items-center">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                            <label class="custom-control-label" for="customRadio1">Event</label>
+                        </div>
+                        <div class="custom-control custom-radio mg-l-20">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" checked>
+                            <label class="custom-control-label" for="customRadio2">Reminder</label>
+                        </div>
+                    </div><!-- form-group -->
+                    <div class="form-group mg-t-30">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">Start Date</label>
+                        <div class="row row-xs">
+                            <div class="col-7">
+                                <input id="eventStartDate" type="text" value="" class="form-control" placeholder="Select date">
+                            </div><!-- col-7 -->
+                            <div class="col-5">
+                                <select class="custom-select">
+                                    <option selected>Select Time</option>
+                                </select>
+                            </div><!-- col-5 -->
+                        </div><!-- row -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">End Date</label>
+                        <div class="row row-xs">
+                            <div class="col-7">
+                                <input id="eventEndDate" type="text" value="" class="form-control" placeholder="Select date">
+                            </div><!-- col-7 -->
+                            <div class="col-5">
+                                <select class="custom-select">
+                                    <option selected>Select Time</option>
+                                </select>
+                            </div><!-- col-5 -->
+                        </div><!-- row -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <textarea class="form-control" rows="2" placeholder="Write some description (optional)"></textarea>
+                    </div><!-- form-group -->
+                </form>
+            </div><!-- modal-body -->
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-brand-01 mg-r-5">Add Event</button>
+                <a href="" class="btn btn-secondary" data-dismiss="modal">Discard</a>
+            </div><!-- modal-footer -->
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<div class="modal calendar-modal-event fade effect-scale" id="modalCalendarEvent" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="event-title"></h6>
+                <nav class="nav nav-modal-event">
+                    <a href="#" class="nav-link"><i data-feather="external-link"></i></a>
+                    <a href="#" class="nav-link"><i data-feather="trash-2"></i></a>
+                    <a href="#" class="nav-link" data-dismiss="modal"><i data-feather="x"></i></a>
+                </nav>
+            </div><!-- modal-header -->
+            <div class="modal-body">
+                <div class="row row-sm">
+                    <div class="col-sm-6">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">Start Date</label>
+                        <p class="event-start-date"></p>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">End Date</label>
+                        <p class="event-end-date"></p>
+                    </div><!-- col-6 -->
+                </div><!-- row -->
+
+                <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">Description</label>
+                <p class="event-desc mg-b-40"></p>
+
+                <a href="" class="btn btn-secondary pd-x-20" data-dismiss="modal">Close</a>
+            </div><!-- modal-body -->
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<script src="../lib/jquery/jquery.min.js"></script>
+<script src="../lib/jqueryui/jquery-ui.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../lib/feather-icons/feather.min.js"></script>
+<script src="../lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="../lib/js-cookie/js.cookie.js"></script>
+<script src="../lib/moment/min/moment.min.js"></script>
+<script src="../lib/fullcalendar/fullcalendar.min.js"></script>
+<script src="../lib/select2/js/select2.full.min.js"></script>
+
+<script src="../assets/js/cassie.js"></script>
+<script src="../assets/js/calendar-events.js"></script>
+<script src="../assets/js/calendar.js"></script>
+
+</body>
+</html>

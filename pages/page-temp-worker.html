@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard and Admin Template">
+    <meta name="author" content="ThemePixels">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
+
+    <title>Time RH - Intérimaires</title>
+
+    <!-- vendor css -->
+    <link href="../lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+
+    <!-- template css -->
+    <link rel="stylesheet" href="../assets/css/cassie.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        <div>
+            <a href="homepage.html" class="sidebar-logo"><span>Time RH</span></a>
+            <small class="sidebar-logo-headline">Votre compagnon RH</small>
+        </div>
+    </div><!-- sidebar-header -->
+    <div id="dpSidebarBody" class="sidebar-body">
+        <ul class="nav nav-sidebar">
+            <li class="nav-label"><label class="content-label">Paie et RH</label></li>
+            <li class="nav-item">
+                <a href="page-my-dashboard.html" class="nav-link"><i data-feather="box"></i> Mon espace</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-rh-requests.html" class="nav-link"><i data-feather="layout"></i> Mes demandes</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-my-collaborators.html" class="nav-link"><i data-feather="lock"></i> Collaborateurs</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-entries-and-validations.html" class="nav-link"><i data-feather="lock"></i> Saisie et
+                    Validation</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-temp-worker.html" class="nav-link active"><i data-feather="x-circle"></i> Intérimaires</a>
+            </li>
+            <li class="nav-item">
+                <a href="page-medical-check-up.html" class="nav-link"><i data-feather="user"></i>Visite médicale</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="page-e-document.html" class="nav-link"><i data-feather="layers"></i> E-documents</a>
+            </li>
+        </ul>
+
+        <hr class="mg-t-30 mg-b-25">
+
+        <ul class="nav nav-sidebar">
+            <li class="nav-item"><a href="page-faq.html" class="nav-link"><i data-feather="aperture"></i> FAQ</a></li>
+            <li
+                    class="nav-item"><a href="page-legal-notice.html" class="nav-link"><i
+                    data-feather="help-circle"></i>
+                Mentions légales
+            </a></li>
+            <li
+                    class="nav-item"><a href="page-privacy-policy.html" class="nav-link"><i
+                    data-feather="help-circle"></i>
+                Politique de confidentialité
+            </a></li>
+        </ul>
+
+
+    </div><!-- sidebar-body -->
+</div><!-- sidebar -->
+
+<div class="content">
+    <div class="header">
+        <div class="header-left">
+            <a href="" class="burger-menu"><i data-feather="menu"></i></a>
+
+            <div class="header-search">
+                <i data-feather="search"></i>
+                <input type="search" class="form-control" placeholder="Qu'est-ce que vous cherchez?">
+            </div><!-- header-search -->
+        </div><!-- header-left -->
+
+        <div class="header-right">
+            <a href="" class="header-help-link"><i data-feather="help-circle"></i></a>
+            <div class="dropdown dropdown-notification">
+                <a href="" class="dropdown-link new" data-toggle="dropdown"><i data-feather="bell"></i></a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu-header">
+                        <h6>Notifications</h6>
+                        <a href=""><i data-feather="more-vertical"></i></a>
+                    </div><!-- dropdown-menu-header -->
+                    <div class="dropdown-menu-body">
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle text-primary bg-primary-light">s</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Socrates Itumay</strong> marked the task as completed.</p>
+                                <span>5 hours ago</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-pink bg-pink-light">r</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Reynante Labares</strong> marked the task as incomplete.</p>
+                                <span>8 hours ago</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-success bg-success-light">d</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Dyanne Aceron</strong> responded to your comment on this <strong>post</strong>.</p>
+                                <span>a day ago</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-indigo bg-indigo-light">k</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Kirby Avendula</strong> marked the task as incomplete.</p>
+                                <span>2 days ago</span>
+                            </div>
+                        </a>
+                    </div><!-- dropdown-menu-body -->
+                    <div class="dropdown-menu-footer">
+                        <a href="">View All Notifications</a>
+                    </div>
+                </div><!-- dropdown-menu -->
+            </div>
+            <div class="dropdown dropdown-loggeduser">
+                <a href="" class="dropdown-link" data-toggle="dropdown">
+                    <div class="">
+                        <!--                        <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">-->
+                        Bienvenue <strong>Phillipe Labarbe</strong>
+                    </div><!-- avatar -->
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu-header">
+                        <div class="media align-items-center">
+                            <!--                            <div class="avatar">-->
+                            <!--                                <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">-->
+                            <!--                            </div>&lt;!&ndash; avatar &ndash;&gt;-->
+                            <div class="media-body mg-l-10">
+                                <h6>Philippe Labarbe</h6>
+                                <span>responsable RH</span>
+                            </div>
+                        </div><!-- media -->
+                    </div>
+                    <div class="dropdown-menu-body">
+                        <a href="" class="dropdown-item"><i data-feather="user"></i> Voir le profil</a>
+                        <a href="" class="dropdown-item"><i data-feather="edit-2"></i> Editer le Profile</a>
+                        <!--                        <a href="" class="dropdown-item"><i data-feather="briefcase"></i> Account Settings</a>-->
+                        <!--                        <a href="" class="dropdown-item"><i data-feather="shield"></i> Privacy Settings</a>-->
+                        <a href="../index.html" class="dropdown-item"><i data-feather="log-out"></i> Se déconnecter</a>
+                    </div>
+                </div><!-- dropdown-menu -->
+            </div>
+        </div><!-- header-right -->
+    </div><!-- header -->
+    <div class="content-header justify-content-between">
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="homepage.html">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Intérimaires</li>
+                </ol>
+            </nav>
+            <h4 class="content-title content-title-xs">Intérimaires</h4>
+        </div>
+        <div class="d-none d-sm-flex">
+            <a href="" class="btn btn-light"><i data-feather="print" class="svg-14"></i> Imprimer</a>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Import / Export
+                </button>
+                <div class="dropdown-menu tx-14" aria-labelledby="dropdownMenuButton5" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 37px, 0px);">
+                    <a class="dropdown-item" href="#">Import</a>
+                    <a class="dropdown-item" href="#">Export</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Saisie
+                </button>
+                <div class="dropdown-menu tx-14" aria-labelledby="dropdownMenuButton1" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 37px, 0px);">
+                    <a class="dropdown-item" href="form-temporary-worker-entry.html">Fiches</a>
+                    <a class="dropdown-item" href="form-temporary-worker-hours.html">Heures</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Filtre par statut
+                </button>
+                <div class="dropdown-menu tx-14" aria-labelledby="dropleftMenuButton2" x-placement="left-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-2px, 0px, 0px);">
+                    <a class="dropdown-item" href="#">Actif</a>
+                    <a class="dropdown-item" href="#">Inactif</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- content-header -->
+    <div class="content-body">
+        <div class=" no-code">
+            <h5 id="section7" class="tx-semibold">Filtre par date</h5>
+            <p class="mg-b-25">Sélectionnez la plage de dates à rechercher.</p>
+
+            <div class="row">
+                <div class="col-3">
+                    <input type="text" id="dateFrom" class="form-control hasDatepicker" placeholder="Du">
+                </div><!-- col -->
+                <div class="col-3">
+                    <input type="text" id="dateTo" class="form-control hasDatepicker" placeholder="Au">
+                </div><!-- col -->
+            </div><!-- row -->
+        </div>
+        <div class="card mt-5">
+            <div class="card-body">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Prénom</th>
+                        <th scope="col">Date d'entrée</th>
+                        <th scope="col">Société</th>
+                        <th scope="col">Etablissement</th>
+                        <th scope="col">Catégorie</th>
+                        <th scope="col">Fonction</th>
+                        <th scope="col">Département</th>
+                        <th scope="col">Resp. de service</th>
+                        <th scope="col">Date saisie heures</th>
+                        <th scope="col">NB heures saisie</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Dupond</th>
+                        <td>Paul</td>
+                        <td>13/07/21</td>
+                        <td>Biolandes</td>
+                        <td>Mt. de Marsan</td>
+                        <td> 5 </td>
+                        <td>RH</td>
+                        <td>Ressources humaines</td>
+                        <td>Dupond</td>
+                        <td>22/09/21</td>
+                        <td>401</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div><!-- content-body -->
+    <div class="content-footer text-center fixed-bottom">
+        &copy; 2021. Tous droits réservés. Conception par <a href="https://www.irtconseils.fr/" target="_blank">IRT
+        Soft</a> &nbsp;partenaire <a href="#" target="_blank">IRT Conseils</a>.
+    </div><!-- content-footer -->
+</div><!-- content -->
+
+<script src="../lib/jquery/jquery.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../lib/feather-icons/feather.min.js"></script>
+<script src="../lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="../lib/prismjs/prism.js"></script>
+<script src="../lib/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../lib/datatables.net-dt/js/dataTables.dataTables.min.js"></script>
+<script src="../lib/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="../lib/datatables.net-responsive-dt/js/responsive.dataTables.min.js"></script>
+<script src="../lib/select2/js/select2.min.js"></script>
+<script src="../lib/js-cookie/js.cookie.js"></script>
+
+<script src="../assets/js/cassie.js"></script>
+<script>
+    $(function(){
+        'use strict'
+
+        $('#example1').DataTable({
+            language: {
+                searchPlaceholder: 'Recherche...',
+                sSearch: '',
+                lengthMenu: '_MENU_ items/page',
+            }
+        });
+
+        $('#example2').DataTable({
+            responsive: true,
+            language: {
+                searchPlaceholder: 'Search...',
+                sSearch: '',
+                lengthMenu: '_MENU_ items/page',
+            }
+        });
+
+        $('#example3').DataTable({
+            'ajax': '../assets/data/datatable-arrays.txt',
+            language: {
+                searchPlaceholder: 'Search...',
+                sSearch: '',
+                lengthMenu: '_MENU_ items/page',
+            }
+        });
+
+        $('#example4').DataTable({
+            'ajax': '../assets/data/datatable-objects.txt',
+            "columns": [
+                { "data": "name" },
+                { "data": "position" },
+                { "data": "office" },
+                { "data": "extn" },
+                { "data": "salary" }
+            ],
+            language: {
+                searchPlaceholder: 'Search...',
+                sSearch: '',
+                lengthMenu: '_MENU_ items/page',
+            }
+        });
+
+        // Select2
+        $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
+
+    });
+</script>
+
+<script>
+    $(function(){
+        'use strict'
+
+        $('#datepicker1').datepicker();
+
+        $('#datepicker2').datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true
+        });
+
+        $('#datepicker3').datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            changeMonth: true,
+            changeYear: true
+        });
+
+        $('#datepicker4').datepicker();
+
+        $('#datepicker5').datepicker({
+            showButtonPanel: true
+        });
+
+        $('#datepicker6').datepicker({
+            numberOfMonths: 2
+        });
+
+        var dateFormat = 'mm/dd/yy',
+            from = $('#dateFrom')
+                .datepicker({
+                    defaultDate: '+1w',
+                    numberOfMonths: 2
+                })
+                .on('change', function() {
+                    to.datepicker('option','minDate', getDate( this ) );
+                }),
+            to = $('#dateTo').datepicker({
+                defaultDate: '+1w',
+                numberOfMonths: 2
+            })
+                .on('change', function() {
+                    from.datepicker('option','maxDate', getDate( this ) );
+                });
+
+        function getDate( element ) {
+            var date;
+            try {
+                date = $.datepicker.parseDate( dateFormat, element.value );
+            } catch( error ) {
+                date = null;
+            }
+
+            return date;
+        }
+
+
+    });
+</script>
+</body>
+</html>

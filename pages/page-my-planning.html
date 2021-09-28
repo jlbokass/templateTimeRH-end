@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard and Admin Template">
+    <meta name="author" content="ThemePixels">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
+
+    <title>Time RH</title>
+
+    <!-- vendor css -->
+    <link href="../lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../lib/fullcalendar/fullcalendar.min.css" rel="stylesheet">
+    <link href="../lib/select2/css/select2.min.css" rel="stylesheet">
+
+    <!-- template css -->
+    <link rel="stylesheet" href="../assets/css/cassie.css">
+
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        <div>
+            <a href="homepage.html" class="sidebar-logo"><span>Time RH</span></a>
+            <small class="sidebar-logo-headline">Votre compagnon RH</small>
+        </div>
+    </div><!-- sidebar-header -->
+    <div id="dpSidebarBody" class="sidebar-body">
+        <ul class="nav nav-sidebar">
+            <li class="nav-label"><label class="content-label">Paie et RH</label></li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub active"><i data-feather="box"></i> Mon espace</a>
+                <ul class="nav nav-sub">
+                    <li class="nav-sub-item"><a href="page-my-dashboard.html" class="nav-sub-link">Mon tableau de
+                        bord</a></li>
+                    <li
+                            class="nav-sub-item"><a href="page-my-planning.html" class="nav-sub-link active">Mon
+                        planning</a></li>
+                    <li class="nav-sub-item">
+                        <a href="page-planning-from-colleagues.html"
+                           class="nav-sub-link">Planning dès collègues</a>
+                    </li>
+                    <li class="nav-sub-item"><a href="page-my-holidays.html" class="nav-sub-link">Mes congés</a></li>
+                    <li
+                            class="nav-sub-item"><a href="page-my-expanse.html" class="nav-sub-link">Mes notes de
+                        frais</a></li>
+                    <li class="nav-sub-item"><a href="page-my-rh-requests.html" class="nav-sub-link">Mes
+                        demandes
+                        RH</a></li>
+                    <li
+                            class="nav-sub-item"><a href="page-my-informations.html" class="nav-sub-link">Mes
+                        informations</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="layout"></i> Collaborateurs</a>
+                <nav class="nav nav-sub">
+                    <a href="page-collaborators-list.html" class="nav-sub-link">Liste des collaborateurs</a>
+                    <a href="page-collaborators-planning.html" class="nav-sub-link">Planning Collaborateurs</a>
+                    <a href="page-planning-3.html" class="nav-sub-link">Planning 3*8</a>
+                    <a href="page-event-follow-up.html" class="nav-sub-link">Suivi des événement</a>
+                </nav>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="lock"></i> Validation</a>
+                <nav class="nav nav-sub">
+                    <a href="page-expenses.html" class="nav-sub-link">Note de frais</a>
+                    <a href="page-holidays.html" class="nav-sub-link">Congés</a>
+                    <a href="page-absences.html" class="nav-sub-link">Absences</a>
+                    <a href="page-rh-requests.html" class="nav-sub-link">Demandes RH</a>
+                    <a href="page-payroll-variables.html" class="nav-sub-link">Variables de paie</a>
+                    <a href="page-payroll-variables.html" class="nav-sub-link">Entrées/Sortie salariés</a>
+                    <a href="page-maj.html" class="nav-sub-link">MAJ dossier collaborateur</a>
+                    <a href="page-delegate-my-validation.html" class="nav-sub-link">Déléguer mes validations</a>
+                </nav>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="x-circle"></i> Préparation de paie</a>
+                <nav class="nav nav-sub">
+                    <a href="page-absence-management.html" class="nav-sub-link">Gestion des absences</a>
+                    <a href="page-management-of-shutdowns.html" class="nav-sub-link">Gestion des arrêts</a>
+                    <a href="page-employee-management.html" class="nav-sub-link">Gestions des collaborateurs</a>
+                    <a href="pag-export-expense-reports.html" class="nav-sub-link">Exporter les notes de frais</a>
+                    <a href="page-management-of-variable-elements.html" class="nav-sub-link">Gestion des éléments
+                        variables</a>
+                </nav>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="user"></i> Intérimaires</a>
+                <nav class="nav nav-sub">
+                    <a href="page-interim-management.html" class="nav-sub-link">Gestion des intérimaires</a>
+                    <a href="page-entering-hours.html" class="nav-sub-link">Saisie des heures</a>
+                    <a href="page-list-of-temporary-workers.html" class="nav-sub-link">Liste des intérimaires</a>
+                </nav>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="file-text"></i> Visite médicale</a>
+                <nav class="nav nav-sub">
+                    <a href="blank.html" class="nav-sub-link">Link 1</a>
+                    <a href="blank.html" class="nav-sub-link">Link 2</a>
+                    <a href="blank.html" class="nav-sub-link">Link 3</a>
+                </nav>
+            </li>
+            <li class="nav-label"><label class="content-label">GTA</label></li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="book"></i> Saisie des temps</a>
+                <nav class="nav nav-sub">
+                    <a href="blank.html" class="nav-sub-link">Link 1</a>
+                    <a href="blank.html" class="nav-sub-link">Link 2</a>
+                    <a href="blank.html" class="nav-sub-link">Link 3</a>
+                </nav>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="layers"></i> Planning</a>
+                <nav class="nav nav-sub">
+                    <a href="blank.html" class="nav-sub-link">Link 1</a>
+                    <a href="blank.html" class="nav-sub-link">Link 2</a>
+                    <a href="blank.html" class="nav-sub-link">Link 3</a>
+                </nav>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link with-sub"><i data-feather="monitor"></i> Impression</a>
+                <nav class="nav nav-sub">
+                    <a href="blank.html" class="nav-sub-link">Link 1</a>
+                    <a href="blank.html" class="nav-sub-link">Link 2</a>
+                    <a href="blank.html" class="nav-sub-link">Link 3</a>
+                </nav>
+            </li>
+        </ul>
+
+        <hr class="mg-t-30 mg-b-25">
+
+        <ul class="nav nav-sidebar">
+            <li class="nav-item"><a href="page-faq.html" class="nav-link"><i data-feather="aperture"></i> FAQ</a></li>
+            <li
+                    class="nav-item"><a href="page-legal-notice.html" class="nav-link"><i
+                    data-feather="help-circle"></i>
+                Mentions légales
+            </a></li>
+            <li
+                    class="nav-item"><a href="page-privacy-policy.html" class="nav-link"><i
+                    data-feather="help-circle"></i>
+                Politique de confidentialité
+            </a></li>
+        </ul>
+
+
+    </div><!-- sidebar-body -->
+</div><!-- sidebar -->
+
+<div class="content">
+    <div class="header">
+        <div class="header-left">
+            <a href="" class="burger-menu"><i data-feather="menu"></i></a>
+
+            <div class="header-search">
+                <i data-feather="search"></i>
+                <input type="search" class="form-control" placeholder="Qu'est-ce que vous cherchez?">
+            </div><!-- header-search -->
+        </div><!-- header-left -->
+
+        <div class="header-right">
+            <!--            <a href="" class="header-help-link"><i data-feather="help-circle"></i></a>-->
+            <div class="dropdown dropdown-notification">
+                <a href="" class="dropdown-link new" data-toggle="dropdown"><i data-feather="bell"></i></a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu-header">
+                        <h6>Notifications</h6>
+                        <a href=""><i data-feather="more-vertical"></i></a>
+                    </div><!-- dropdown-menu-header -->
+                    <div class="dropdown-menu-body">
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle text-primary bg-primary-light">s</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Phillipe Labarbe</strong> a marqué la tâche comme terminée.</p>
+                                <span>il y a 5 heures</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-pink bg-pink-light">r</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Nathalie Sucodumo</strong> a marqué la tâche comme terminée.</p>
+                                <span>il y a 8 heures</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-success bg-success-light">d</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Beatrice Jean</strong> a répondu à votre commentaire à ce sujet
+                                    <strong>Paie RH
+                                    </strong>.</p>
+                                <span>il y a 1 jour</span>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-item">
+                            <div class="avatar"><span class="avatar-initial rounded-circle tx-indigo bg-indigo-light">k</span></div>
+                            <div class="dropdown-item-body">
+                                <p><strong>Pascal Truffaud</strong> a marqué la tâche comme terminée.</p>
+                                <span>il y a 2 jours</span>
+                            </div>
+                        </a>
+                    </div><!-- dropdown-menu-body -->
+                    <div class="dropdown-menu-footer">
+                        <a href="">Afficher toutes les notifications</a>
+                    </div>
+                </div><!-- dropdown-menu -->
+            </div>
+            <div class="dropdown dropdown-loggeduser">
+                <a href="" class="dropdown-link" data-toggle="dropdown">
+                    <div class="">
+                        <!--                        <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">-->
+                        Bienvenue <strong>Phillipe Labarbe</strong>
+                    </div><!-- avatar -->
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu-header">
+                        <div class="media align-items-center">
+                            <!--                            <div class="avatar">-->
+                            <!--                                <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">-->
+                            <!--                            </div>&lt;!&ndash; avatar &ndash;&gt;-->
+                            <div class="media-body mg-l-10">
+                                <h6>Philippe Labarbe</h6>
+                                <span>responsable RH</span>
+                            </div>
+                        </div><!-- media -->
+                    </div>
+                    <div class="dropdown-menu-body">
+                        <a href="" class="dropdown-item"><i data-feather="user"></i> Voir le profil</a>
+                        <a href="" class="dropdown-item"><i data-feather="edit-2"></i> Editer le Profile</a>
+                        <!--                        <a href="" class="dropdown-item"><i data-feather="briefcase"></i> Account Settings</a>-->
+                        <!--                        <a href="" class="dropdown-item"><i data-feather="shield"></i> Privacy Settings</a>-->
+                        <a href="../index.html" class="dropdown-item"><i data-feather="log-out"></i> Se déconnecter</a>
+                    </div>
+                </div><!-- dropdown-menu -->
+            </div>
+        </div><!-- header-right -->
+    </div><!-- header -->
+    <div class="content-header justify-content-between">
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Mon planning</li>
+                </ol>
+            </nav>
+            <h4 class="content-title content-title-xs mb-2">Mon planning</h4>
+            <p>
+                Vous pouvez ajouter un évènement par double clic sur le planning.
+            </p>
+        </div>
+                <div class="d-none d-sm-flex">
+<!--                    <a href="" class="btn btn-white"><i data-feather="share-2" class="svg-14"></i> Share</a>-->
+                    <a href="" class="btn btn-brand-01 mg-l-5"><i data-feather="save" class="svg-14"></i> Imprimer
+                        au format pdf</a>
+                </div>
+    </div><!-- content-header -->
+    <div class="container-fluid">
+        <div class="mb-3 no-code">
+            <div>
+                <a class="btn btn-dark collapsed" data-toggle="collapse" href="#collapseExample" role="button"
+                   aria-expanded="false" aria-controls="collapseExample">Filtre évènements</a>
+                <div class="mg-t-5 collapse" id="collapseExample" style="">
+                    <div class="card card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Congés payés
+                                        (brouillon)</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck1">RTT
+                                        (brouillon)</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck1">Sans solde
+                                        (brouillon)</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                    <label class="custom-control-label" for="customCheck1">Congés payés
+                                        (en validation)</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                    <label class="custom-control-label" for="customCheck1">RTT
+                                        (en validation)</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                    <label class="custom-control-label" for="customCheck1">Sans solde
+                                        (en validation)</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                    <label class="custom-control-label" for="customCheck1">Congés payés</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                    <label class="custom-control-label" for="customCheck1">RTT</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                    <label class="custom-control-label" for="customCheck1">Sans solde</label>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-right">
+                            <a href="#">Tout cocher</a> / <a href="#" class="mr-3">Tout décocher</a>
+                            <button type="button" class="btn btn-primary">Filtrer</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-body content-body-calendar">
+        <div id="calendar" class="content-calendar"></div>
+    </div><!-- content-body -->
+    <div class="content-footer text-center">
+        &copy; 2021. Tous droits réservés. Conception par <a href="https://www.irtconseils.fr/" target="_blank">IRT
+        Soft</a> partenaire <a href="">IRT Conseils</a>
+    </div><!-- content-footer -->
+</div><!-- content -->
+
+<div class="modal calendar-modal-create fade effect-scale" id="modalCreateEvent" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body pd-20 pd-sm-30">
+                <button type="button" class="close pos-absolute t-20 r-20" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i data-feather="x"></i></span>
+                </button>
+
+                <h5 class="tx-18 tx-sm-20 mg-b-20 mg-sm-b-30">Create New Event</h5>
+
+                <form id="formCalendar" method="post" action="app-calendar.html">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Add title">
+                    </div><!-- form-group -->
+                    <div class="form-group d-flex align-items-center">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                            <label class="custom-control-label" for="customRadio1">Event</label>
+                        </div>
+                        <div class="custom-control custom-radio mg-l-20">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" checked>
+                            <label class="custom-control-label" for="customRadio2">Reminder</label>
+                        </div>
+                    </div><!-- form-group -->
+                    <div class="form-group mg-t-30">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">Start Date</label>
+                        <div class="row row-xs">
+                            <div class="col-7">
+                                <input id="eventStartDate" type="text" value="" class="form-control" placeholder="Select date">
+                            </div><!-- col-7 -->
+                            <div class="col-5">
+                                <select class="custom-select">
+                                    <option selected>Select Time</option>
+                                </select>
+                            </div><!-- col-5 -->
+                        </div><!-- row -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">End Date</label>
+                        <div class="row row-xs">
+                            <div class="col-7">
+                                <input id="eventEndDate" type="text" value="" class="form-control" placeholder="Select date">
+                            </div><!-- col-7 -->
+                            <div class="col-5">
+                                <select class="custom-select">
+                                    <option selected>Select Time</option>
+                                </select>
+                            </div><!-- col-5 -->
+                        </div><!-- row -->
+                    </div><!-- form-group -->
+                    <div class="form-group">
+                        <textarea class="form-control" rows="2" placeholder="Write some description (optional)"></textarea>
+                    </div><!-- form-group -->
+                </form>
+            </div><!-- modal-body -->
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-brand-01 mg-r-5">Add Event</button>
+                <a href="" class="btn btn-secondary" data-dismiss="modal">Discard</a>
+            </div><!-- modal-footer -->
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<div class="modal calendar-modal-event fade effect-scale" id="modalCalendarEvent" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="event-title"></h6>
+                <nav class="nav nav-modal-event">
+                    <a href="#" class="nav-link"><i data-feather="external-link"></i></a>
+                    <a href="#" class="nav-link"><i data-feather="trash-2"></i></a>
+                    <a href="#" class="nav-link" data-dismiss="modal"><i data-feather="x"></i></a>
+                </nav>
+            </div><!-- modal-header -->
+            <div class="modal-body">
+                <div class="row row-sm">
+                    <div class="col-sm-6">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">Start Date</label>
+                        <p class="event-start-date"></p>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">End Date</label>
+                        <p class="event-end-date"></p>
+                    </div><!-- col-6 -->
+                </div><!-- row -->
+
+                <label class="tx-uppercase tx-sans tx-11 tx-spacing-1 tx-color-04 tx-medium">Description</label>
+                <p class="event-desc mg-b-40"></p>
+
+                <a href="" class="btn btn-secondary pd-x-20" data-dismiss="modal">Close</a>
+            </div><!-- modal-body -->
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<script src="../lib/jquery/jquery.min.js"></script>
+<script src="../lib/jqueryui/jquery-ui.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../lib/feather-icons/feather.min.js"></script>
+<script src="../lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="../lib/js-cookie/js.cookie.js"></script>
+<script src="../lib/moment/min/moment.min.js"></script>
+<script src="../lib/fullcalendar/fullcalendar.min.js"></script>
+<script src="../lib/select2/js/select2.full.min.js"></script>
+
+<script src="../assets/js/cassie.js"></script>
+<script src="../assets/js/calendar-events.js"></script>
+<script src="../assets/js/calendar.js"></script>
+
+</body>
+</html>
